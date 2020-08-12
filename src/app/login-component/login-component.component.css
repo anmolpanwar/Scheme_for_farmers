@@ -1,0 +1,21 @@
+.shift_middle{
+    margin-left: 30%;
+    margin-top: 10%;
+    font-size: large;
+    
+}
+.padding_textbox{
+    padding: 0.7%;
+    width: 50%;
+  height: 10%;
+}
+.marginforforgotpassword{
+    margin-left: 35%;
+}
+.marginforquestion{
+    margin-left: 18%;
+}
+.loginbutton{
+padding: 0.7%;
+font-size: large;    
+}
