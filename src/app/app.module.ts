@@ -12,6 +12,7 @@ import { SellRequestComponent } from './sell-request/sell-request.component';
 import { SellHistoryComponent } from './sell-history/sell-history.component';
 import { ViewMarketplaceComponent } from './view-marketplace/view-marketplace.component';
 import { BidderWelcomeComponent } from './bidder-welcome/bidder-welcome.component';
+import { AgGridModule } from 'ag-grid-angular';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { BidderWelcomeComponent } from './bidder-welcome/bidder-welcome.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    AgGridModule.withComponents([])
   ],
   providers: [],
   bootstrap: [AppComponent]
