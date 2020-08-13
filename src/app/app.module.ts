@@ -13,6 +13,7 @@ import { SellHistoryComponent } from './sell-history/sell-history.component';
 import { ViewMarketplaceComponent } from './view-marketplace/view-marketplace.component';
 import { BidderWelcomeComponent } from './bidder-welcome/bidder-welcome.component';
 import { AgGridModule } from 'ag-grid-angular';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
