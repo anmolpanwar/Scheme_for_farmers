@@ -1,0 +1,97 @@
+.header
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  background: rgba(0,0,0,1);
+}
+
+.spacer
+{
+  height: 100%;
+  width: 3%;
+  float: left;
+}
+
+.logo
+{
+  position: relative;
+  top: 0;
+  left: 2.5%;
+  width: 9.16%;
+  height: 7%;
+  background-color: white;
+}
+
+.logo-text
+{
+  position: relative;
+  left: 12.75%;
+  top: 6.5%;
+  color: white;
+  font-size: 240%;
+  letter-spacing: 2px;
+  font-family: Futura;
+  opacity: 100%;
+  transition: 0.3s;
+}
+.logo-text:hover
+{
+  color: yellow;
+}
+
+.menu-tray
+{
+  position: relative;
+  left: 45%;
+  width: 39.3%;
+  height: 78%;
+}
+.menu-item
+{
+  color: white;
+  font-family: Verdana ;
+  font-size: 140%;
+  height: 100%;
+  width: 24%;
+  float: left;
+  text-align: center;
+  line-height: 378%;
+  transition: 0.3s;
+}
+.menu-item:hover
+{
+  transform: scale(1.1);
+  color: greenyellow;
+}
+
+.login
+{
+  position: inherit;
+  top: 15%;
+  background-color: white;
+  opacity: 0.8;
+  font-family: Verdana ;
+  font-size: 140%;
+  height: 80%;
+  width: 25%;
+  float: right;
+  text-align: center;
+  line-height: 275%;
+  border-radius: 40px;
+  transition: 0.3s;
+  overflow: hidden;
+}
+.login:hover
+{
+  background-color: greenyellow;
+  transform: scale(1.1);
+  opacity: 1;
+}
