@@ -18,6 +18,7 @@ div{
     margin: 10px auto;
     text-align: center;
     border-radius: 5px;
+    background-color: beige;
 }
 
 center{
@@ -30,9 +31,8 @@ div.settings{
     top: -40px;
 }
 
-/* .user{
-    margin-left: 2em;
+ .user{
     margin-bottom: 1em;
-    border-radius: 5px;
+    border-radius: 2px;
     border: 1px solid seagreen;
-} */
+}
